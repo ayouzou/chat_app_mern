@@ -1,0 +1,57 @@
+/* style.css */
+
+/* Styles for the container that wraps the entire component */
+.create-post-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Styles for the heading */
+.create-post-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Styles for form elements */
+.create-post-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for form groups (e.g., Description and Image) */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Styles for labels */
+.form-label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Styles for input fields */
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Styles for the submit button */
+.create-post-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
